@@ -1,0 +1,11 @@
+name: Hello CI
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Say hello
+        run: echo "Hello world, my pipeline works!"
