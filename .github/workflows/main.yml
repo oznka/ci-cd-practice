@@ -8,4 +8,4 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - name: Say hello
-        run: echo "Hello world, my pipeline works!"
+        run: not-a-real-command
