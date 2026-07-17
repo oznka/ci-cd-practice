@@ -5,7 +5,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v4
       - name: Say hello
-        run: not-a-real-command
+        run: echo "Hello, this is my first pipeline"
